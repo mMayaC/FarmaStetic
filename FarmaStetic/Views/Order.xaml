@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaStetic.Views.Order">
+    <ContentPage.Content>
+        <Frame>
+            <StackLayout>
+
+                <Label Text="Diligencié los siguientes datos." Margin="0,30,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="18" FontAttributes="Bold"/>
+
+                <Frame CornerRadius="10"
+                       Margin="0,10,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Nombres y Apellidos"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                           HeightRequest="40"/>
+                </Frame>
+
+                <Frame CornerRadius="10"
+                        Margin="0,10,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Dirección de residencia"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                           HeightRequest="40"/>
+                </Frame>
+                <Frame CornerRadius="10"
+                        Margin="0,10,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Ciudad"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                           HeightRequest="40"/>
+                </Frame>
+                <Frame CornerRadius="10"
+                        Margin="0,10,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Teléfonos"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                       HeightRequest="40"/>
+                </Frame>
+                <Frame CornerRadius="10"
+                        Margin="0,10,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Producto"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                       HeightRequest="40"/>
+                </Frame>
+                <Frame CornerRadius="10"
+                        Margin="0,10,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Cantidad"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                       HeightRequest="40"/>
+                </Frame>
+
+
+                <Button Text="realizar pedido"
+                    Background="#1F3B81"
+                    CornerRadius="15"
+                    TextColor="white"
+                    Margin="0,10,0,0"
+                    HorizontalOptions="Center"/>
+                <Button Text="Modificar pedido"
+                    Background="#1F3B81"
+                    CornerRadius="15"
+                    TextColor="white"
+                    Margin="0,0,0,0"
+                    HorizontalOptions="Center"/>
+                <Button Text="Cancelar pedido"
+                    Background="#1F3B81"
+                    CornerRadius="15"
+                    TextColor="white"
+                    Margin="0,0,0,0"
+                    HorizontalOptions="Center"/>
+
+
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

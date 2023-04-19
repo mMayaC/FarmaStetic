@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaStetic.Views.Login"
+             >
+
+    <StackLayout Background="White">
+        <Image Source="fs.jpg"
+               Margin="0,10,0,0"
+              HeightRequest="300"
+               WidthRequest="300"/>
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="20,0,20,50"
+               CornerRadius="20"
+               Background="White">
+
+            <StackLayout>
+
+
+                <Frame CornerRadius="10"
+                       Margin="0,30,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Usuario"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                           x:Name="usertxt"/>
+                </Frame>
+                <Frame CornerRadius="10"
+                       Margin="0,10,0,0"
+                       Background="#DADFDB">
+                    <Entry Placeholder="Contraseña"
+                           PlaceholderColor="#9E9E9E"
+                           TextColor="#7F7979"
+                           x:Name="passwordtxt"
+                           IsPassword="True"/>
+                </Frame>
+
+
+                <Button CornerRadius="10"
+                    Text="Iniciar sesión"
+                        Margin="0,50,0,0"
+                        Background="#1F3B81"
+                        x:Name="btnIngresar"
+                        Clicked="btnIngresar_Clicked"
+                        TextColor="white"/>
+                <Button CornerRadius="10"
+                    Text="Crear cuenta"
+                        Background="#1F3B81"
+                        x:Name="btnRegistrar"
+                        Clicked="btnRegistrar_Clicked"
+                        TextColor="white"/>
+                <Button CornerRadius="10"
+                    Text="¿Olvidaste tu contraseña?"
+                        Background="#1F3B81"
+                        x:Name="btnOlvidar"
+                        Clicked="btnOlvidar_Clicked"
+                        TextColor="white"/>
+
+
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaStetic.Views.Information">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Background="white">
+                <Image Source="emprs.jpg"
+                Margin="0,0,0,0"
+                HeightRequest="175"
+                WidthRequest="220"/>
+            </Frame>
+
+
+            <Label Text="¿Quiénes somos?" Margin="0,20,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="La empresa Farma Stetic YJ, es una empresa colombiana dedicada a la comercialización y dispensación de medicamentos, nutrición, belleza, dispositivos médicos, productos para el cuidado de paciente en casa y productos para la salud." Margin="0,10,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="18"/>
+            <Label Text="Ubicación" Margin="0,30,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="FARMA STETIC YJ concentra su sede administrativa en la ciudad de Medellín Calle 50 # 45-31, detrás de la iglesia San José del centro de Medellín, Antioquia." Margin="0,10,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="18"/>
+            <Label Text="Contacto" Margin="0,30,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="3136525453 - 3175609876" Margin="0,10,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="18"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

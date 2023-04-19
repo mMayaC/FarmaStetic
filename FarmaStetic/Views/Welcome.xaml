@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaStetic.Views.Welcome"
+             NavigationPage.HasNavigationBar="True">
+
+    <ContentPage.Content>
+        <StackLayout Background="white">
+
+            <Label Text="¡BIENVENIDOS A FARMA STETIC YJ!" Margin="0,70,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="20" FontAttributes="Bold"/>
+
+            <Image Source="LOGO.png"
+               Margin="0,0,0,0"
+              HeightRequest="180"
+               WidthRequest="200"/>
+            <Label Text="En el 2023 ser la empresa líder en Colombia en la comercialización y dispensación de medicamentos, nutrición, belleza, dispositivos médicos productos para el cuidado del paciente en casa y productos para la salud apalancados en el conocimiento técnico y humano de nuestro personal." Margin="0,40,0,0" HorizontalTextAlignment="Center" TextColor="black" FontSize="22"/>
+            <Button Text="Nuestra empresa"
+                    Background="#1F3B81"
+                    CornerRadius="15"
+                    TextColor="white"
+                    Margin="0,40,0,0"
+                    HorizontalOptions="Center"
+                    x:Name="informacionbtn"
+                    Clicked="informacionbtn_Clicked"/>
+            <Button Text="Realizar pedido"
+                    Background="#1F3B81"
+                    CornerRadius="15"
+                    TextColor="white"
+                    Margin="0,10,0,0"
+                    HorizontalOptions="Center"
+                    x:Name="realizarpbtn"
+                    Clicked="realizarpbtn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
